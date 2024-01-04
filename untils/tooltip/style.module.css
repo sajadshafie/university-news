@@ -1,0 +1,23 @@
+.container {
+  position: relative;
+}
+.popover {
+  position: absolute;
+  bottom: -45px;
+  left: -10px;
+  display: none;
+  width: 100px;
+  height: fit-content;
+}
+.container:hover .popover {
+  display: block;
+}
+.icon_arrow {
+  position: absolute;
+  top: -10px;
+  left: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
